@@ -1,15 +1,16 @@
-{
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "name": "Launch Program",
-            "type": "node",
-            "request": "launch",
-            "runtimeExecutable": "nodemon",
-            "program": "${workspaceFolder}/index.js",
-            "restart": true,
-            "console": "integratedTerminal",
-            "internalConsoleOptions": "neverOpen"
-        }
-    ]
-}
+
+    {
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "name": "Launch Program",
+                "type": "node",
+                "request": "launch",
+                "runtimeExecutable": "nodemon",
+                "program": "${workspaceFolder}/index.js",
+                "restart": true,
+                "console": "integratedTerminal",
+                "internalConsoleOptions": "neverOpen"
+            }
+        ]
+    }
