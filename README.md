@@ -80,14 +80,14 @@ When the client makes a `POST` request to `/api/users`:
   - respond with HTTP status code `500` (Server Error).
   - return the following JSON object: `{ error: "There was an error while saving the user to the database" }`.
 
-When the client makes a `GET` request to `/api/users`:
+[x] When the client makes a `GET` request to `/api/users`:
 
 - If there's an error in retrieving the _users_ from the database:
   - cancel the request.
   - respond with HTTP status code `500`.
   - return the following JSON object: `{ error: "The users information could not be retrieved." }`.
 
-When the client makes a `GET` request to `/api/users/:id`:
+[x] When the client makes a `GET` request to `/api/users/:id`:
 
 - If the _user_ with the specified `id` is not found:
 
@@ -99,7 +99,7 @@ When the client makes a `GET` request to `/api/users/:id`:
   - respond with HTTP status code `500`.
   - return the following JSON object: `{ error: "The user information could not be retrieved." }`.
 
-When the client makes a `DELETE` request to `/api/users/:id`:
+[x] When the client makes a `DELETE` request to `/api/users/:id`:
 
 - If the _user_ with the specified `id` is not found:
 
@@ -150,3 +150,6 @@ Create a new React application and connect it to your server:
 - add a delete button to each displayed user that will remove it from the server.
 - add forms to add and update data.
 - Style the list of users however you see fit.
+
+
+## Ifiok Udoidiok
